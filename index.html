@@ -7,40 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issuu</title>
     <link rel="stylesheet" href="style.css">
-    </head>
+</head>
 
-<header>
-    <img width="100" height="100" src="/Imagenes/issu.png" alt="">
-    <p>Already a user?</p>
-    <a href="">Sign in</a>
-    </header>
 
 <body>
+
+    <header>
+        <img class="left" src="/Imagenes/thumbnail_issu.png" alt="logo">
+        <section class="right">
+            <div>
+                <nav>Already a user?</nav>
+            </div>
+            <div>
+                <nav> <a href="">Sign in</a> </nav>
+            </div>
+        </section>
+        <div class="separacion"></div>
+    </header>
+
     <main>
-        <h2 class="title">Create an Issuu Account.</h2>
+        <br>
+        <br>
+        <h3>Create an Issuu Account.</h3>
         <div>
-            <button class="Google"> <img class="imagen" width="15" height="15" src="/Imagenes/descarga.png" alt="">Sign in with Google</button>
-            <button class="Facebook">Continue with Facebook</button>
+            <button class="Google"> <img class="imagen" width="15" height="15" src="/Imagenes/descarga.png" alt="">Sign
+                in with Google</button>
+            <button class="Facebook"> <img class="imagen2" width="15" height="15" src="/Imagenes/Facebook.png" alt=""> Continue with Facebook</button>
         </div>
+
         <p class="parrafo">or with email</p>
 
         <p class="email">Email</p>
-        <form class="text1" action="">
-            <input type="text">
+        <form action="">
+            <input class="input_tamaño" type="text" placeholder="e.g. john.doe@email.com">
         </form>
 
-        <p class="password">Pasword</p>
-        <form class="text2" action="">
-            <input type="text">
+        <p class="password">Password</p>
+        <form action="">
+            <input class="input_tamaño" type="text">
         </form>
+        <br>
 
-        <p class="terms">I accept the Terms of Service and the Professional Terms of Service.</p>
+        <input type="checkbox" name="" id="">
+        <label for="checkbox">I accept the <a href="">Terms of Service</a> and the <a href="">Profesional Terms of Service</a> </label>
+        <br>
+        <br>
 
         <button class="account">CREATE ACCOUNT</button>
     </main>
 
-    <footer>
-        <p class="footer-copy">Issuu Inc. Terms Privacy DMCA</p>
+    <br>
+    <footer class="footer">
+        <div class="separacion"></div>
+        
+       
+        <p class="issuu"> Issuu Inc. Terms Privacy DCMA
     </footer>
 </body>
 
